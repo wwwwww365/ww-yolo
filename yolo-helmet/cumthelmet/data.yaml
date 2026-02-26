@@ -1,0 +1,10 @@
+# YOLO 数据集配置文件
+train: D:\dataset\CUMT-HelmeT\dataset\train/images
+val: D:\dataset\CUMT-HelmeT\dataset\val/images
+test: D:\dataset\CUMT-HelmeT\dataset\test/images
+
+# 类别数量
+nc: 2
+
+# 类别名称
+names: ['helmet', 'no-helmet']
